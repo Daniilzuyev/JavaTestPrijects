@@ -1,0 +1,50 @@
+import java.io.*;
+public class Sorting_3_numbers {
+    
+    public static void main(String[] args) throws IOException
+    {
+        BufferedReader reader = new BufferedReader (new InputStreamReader(System.in));
+        String s = reader.readLine();
+        int numb1 = Integer.parseInt(s);
+        String k = reader.readLine();
+        int numb2 = Integer.parseInt(k);
+        String d = reader.readLine();
+        int numb3 = Integer.parseInt(d);
+        
+        if (numb1>numb2 && numb1>numb3){
+        System.out.println(numb1);
+        if (numb2>=numb3){
+        System.out.println(numb2);
+        System.out.println(numb3);
+        }
+        else{ 
+        System.out.println(numb3);
+        System.out.println(numb2);
+        }
+        }
+        
+        else if (numb2>numb1 && numb2>numb3){
+        System.out.println(numb2);
+        if (numb1>numb3){
+        System.out.println(numb1);
+        System.out.println(numb3);
+        }
+        else{
+        System.out.println(numb3);
+        System.out.println(numb1);        
+        }
+        }
+        
+        else if (numb3>numb1 && numb3>numb2){
+        System.out.println(numb3);
+        if (numb1>numb2){
+        System.out.println(numb1);
+        System.out.println(numb2);
+        }
+        else{
+        System.out.println(numb2);
+        System.out.println(numb1);        
+        }
+        }
+        }
+}
