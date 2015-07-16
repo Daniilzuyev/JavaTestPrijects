@@ -1,0 +1,15 @@
+public class example_return {
+
+ public static void main(String[] args) {
+  pr(multiply(3));
+  pr(multiply(9));
+  System.out.println(multiply(2));
+ }
+
+ public static void pr(int s){
+  System.out.println(s);
+ }
+ public static int multiply(int x){
+  return x*x;
+ }
+}
