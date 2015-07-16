@@ -1,0 +1,31 @@
+public class Person {
+	public static int m;//поля
+	public String name;
+	public String surname;
+	public int age;
+
+	public Person(String name1, String surname2) {
+		this.name = name1;
+		this.surname = surname2;
+		m++;
+			}
+	public Person(String name, String surname, int age) {
+this(name,surname);
+this.age = age;
+	}
+	public Person(String name, String surname, int age,boolean sex) {
+		this(name,surname,age);
+		//this.sex = sex;
+			}
+
+	
+
+	public Person() {
+	}
+
+	public String toString() {
+		if (age==0)return name + " " + surname;
+		else return name + " " + surname + " " + age + " лет";
+	}
+
+}
