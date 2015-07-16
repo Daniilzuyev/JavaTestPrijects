@@ -1,0 +1,6 @@
+public class addNewCat {
+    private static int catsCount = 0;
+
+    public static void addNewCat() {
+        catsCount = catsCount +1;
+    }
