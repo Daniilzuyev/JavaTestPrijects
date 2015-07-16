@@ -1,0 +1,82 @@
+public class family {
+    /* Семья
+     Создай класс Human с полями имя(String), пол(boolean),возраст(int), отец(Human), мать(Human).
+     Создай объекты и заполни их так, чтобы получилось: Два дедушки, две бабушки, отец, мать, трое детей. Вывести объекты на экран.
+     Примечание:
+     Если написать свой метод String toString() в классе Human, то именно он будет использоваться при выводе объекта на экран.
+     Пример вывода:
+     Имя: Аня, пол: женский, возраст: 21, отец: Павел, мать: Катя
+     Имя: Катя, пол: женский, возраст: 55
+     Имя: Игорь, пол: мужской, возраст: 2, отец: Михаил, мать: Аня
+     …
+     */
+
+    public static void main(String[] args) {
+        Human d1 = new Human("Vasia", true, 71);
+//        d1.name = "Vasia";
+//        d1.sex = true;
+//        d1.age = 65;
+        Human d2 = new Human("Petia", true, 65);
+        Human b1 = new Human("Varka", false, 70);
+        Human b2 = new Human("Motria", false, 64);
+        Human son = new Human("vasul", true, 45, d1, b1);
+        Human doother = new Human("natasha", false, 40, d2, b1);
+        Human g1 = new Human("Tania", false, 28, son, doother);
+        Human g2 = new Human("Sasha", true, 25, son, doother);
+        Human g3 = new Human("Roma", true, 20, son, doother);
+
+        System.out.println(d1);
+        System.out.println(d2);
+        System.out.println(b1);
+        System.out.println(b2);
+        System.out.println(son);
+        System.out.println(doother);
+        System.out.println(g1);
+        System.out.println(g2);
+        System.out.println(g3);
+    }
+
+    public static class Human {
+
+        String name;
+        boolean sex;
+        int age;
+        Human father;
+        Human mother;
+
+        Human() {
+        }
+
+        Human(String name, boolean sex, int age) {
+            this.name = name;
+            this.sex = sex;
+            this.age = age;
+        }
+
+        Human(String name, boolean sex, int age, Human f, Human m) {
+            this.name = name;
+            this.sex = sex;
+            this.age = age;
+            this.father = f;
+            this.mother = m;
+        }
+
+        public String toString() {
+            String text = "";
+            text += "Имя: " + this.name;
+            text += ", пол: " + (this.sex ? "мужской" : "женский");
+            text += ", возраст: " + this.age;
+
+            if (this.father != null) {
+                text += ", отец: " + this.father.name;
+            }
+
+            if (this.mother != null) {
+                text += ", мать: " + this.mother.name;
+            }
+
+            return text;
+        }
+    }
+
+}
