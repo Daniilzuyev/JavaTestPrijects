@@ -1,0 +1,17 @@
+public class countLetters {
+
+	public static void main(String[] args) throws Exception 
+    {
+        BufferedReader reader=new BufferedReader (new InputStreamReader(System.in));
+        String string = reader.readLine();
+        String number = reader.readLine();
+        int N = Integer.parseInt(number);
+        int i = 0;
+        while (i>N){
+            System.out.println(string);
+            i++;
+        }
+        
+
+    }
+}
