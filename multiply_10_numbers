@@ -1,0 +1,15 @@
+public class multiply_10_numbers {
+public static void main(String[] args){
+	  
+	    System.out.println(multiple());
+	}
+	  public static int multiple()
+	    {
+	       int h = 1;
+	       for (int i=1;i<10;i++){
+	       h = h * (i+1);
+	    }
+	    return h;
+	}
+	
+}
