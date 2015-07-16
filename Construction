@@ -1,0 +1,25 @@
+public class Construction {
+
+	public static void main(String[] args) throws IOException {
+		Person p2 = new Person("Tania","Simak",28);
+		Person p3 = new Person("Kolia","Simak");
+		
+        System.out.println(p3);
+        System.out.println(p2);
+        System.out.println("Количество сотрудников в организации "+Person.m);
+        
+        
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+	    System.out.println("Enter name ");
+        String name = reader.readLine();
+        System.out.println("Enter surname ");
+        String surname = reader.readLine();
+        System.out.println("Enter age ");
+        int age = Integer.parseInt(reader.readLine());
+        Person p4 = new Person (name,surname,age);
+        System.out.println(p4);
+        System.out.println("Количество сотрудников в организации "+Person.m);
+       
+	}
+
+}
