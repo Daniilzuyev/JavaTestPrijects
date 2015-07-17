@@ -1,0 +1,19 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class inputMinusOne {
+    public static void main(String[] args)   throws Exception
+    {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        int m =0;
+        for (;true;)
+        {
+
+            String s1 = reader.readLine();
+            int ss1 = Integer.parseInt(s1);
+            m = m + ss1;
+            if(s1.equals("-1")) break;
+        }
+        System.out.print(m);
+    }
+}
