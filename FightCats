@@ -1,0 +1,26 @@
+
+public class FightCats {
+    public String name;
+    public int age;
+    public int weight;
+    public int strength;
+
+    {
+        this.name = name;
+        this.age = age;
+        this.weight = weight;
+        this.strength = strength;
+    }
+
+	public boolean fight(FightCats anotherCat)
+    {
+
+		if (this.age + this.weight >= anotherCat.age + anotherCat.weight)
+          {
+              return true;
+          } else
+          {
+              return false;
+          }
+}
+}
