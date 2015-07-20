@@ -1,0 +1,7 @@
+new Cat();        // объект типа Cat
+Cat catVaska = new Cat(); // сохранение обьекта в переменную catVaska с типом Cat
+catVaska.name = "Vaska";  // заполнение данными
+catVaska.age = 6;   // заполнение данными
+catVaska.weight = 4;   // заполнение данными
+catVaska.sleep();   // вызов метод обьекта
+catVaska.fight(catBarsik); // взаимодействие обьектов
