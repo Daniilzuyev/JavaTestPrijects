@@ -1,0 +1,31 @@
+public class Cat5Initializes {
+    
+ String name;
+ int weight;
+ int  age;
+ String colour;
+ String adress;
+ public void initialize (String name){
+     this.name = name;
+ }
+ public void initialize (String name, int weight, int age){
+     this.name = name;
+     this.weight = weight;
+     this.age = age;
+ }
+ public void initialize (String name, int age){
+     this.name = name;
+     this.age = age;
+ }
+ public void initialize (int weight, String colour){ // 4
+     this.weight = weight;
+     this.colour = colour;
+ }
+ public void initialize (int weight, String colour, String adress){
+     this.weight = weight;
+     this.colour = colour;
+     this.adress = adress;
+ }
+ 
+
+}
