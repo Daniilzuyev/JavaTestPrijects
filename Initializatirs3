@@ -1,0 +1,21 @@
+public class Initializatirs3 {
+    private String friendname = null;
+    private int friendage = (Integer) null;
+    private int friendsex = (Integer) null;
+    public void initialize(String name)
+    {
+        this.friendname = name;
+    }
+
+    public void initialize(String name, int age)
+    {
+        this.friendname = name;
+        this.friendage = age;
+    }
+    public void initialize(String name, int age, int sex)
+    {
+        this.friendname = name;
+        this.friendage = age;
+        this.friendsex = sex;
+    }
+}
