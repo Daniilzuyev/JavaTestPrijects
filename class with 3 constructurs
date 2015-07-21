@@ -1,0 +1,14 @@
+public class Friend
+{
+    private String friendID = null;
+    public Friend(String name){
+        this.friendID = name; 
+    }
+    public Friend(String name, int age){
+        this.friendID = name + age;
+    }
+    public Friend(String name, int age, int sex){
+        this.friendID = name + age + sex;
+    }
+
+}
