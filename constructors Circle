@@ -1,0 +1,13 @@
+public class Circle
+{
+    private String ball = null;
+    public Circle (int centerX, int centerY, String radius){
+    String ball = centerX + centerY + radius;
+    }
+    public Circle (int centerX, int centerY, String radius, int width){
+    String ball = centerX + centerY + radius + width;
+    }
+    public Circle (int centerX, int centerY, String radius, int width, String color){
+    String ball = centerX + centerY + radius + width + color;
+    }
+    
