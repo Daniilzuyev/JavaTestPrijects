@@ -1,0 +1,65 @@
+public class BestCat {
+
+
+		    public static void main(String[] args) {
+		    	boolean i1, i2, i3;
+		        Cat cat1 = new Cat("Dimka", 4, 5, 10);
+		        Cat cat2 = new Cat("Anton", 6, 3, 12);
+		        Cat cat3 = new Cat("Dron", 8, 8, 16);
+		        i1 = cat1.fight(cat2);
+		        if (i1)
+		        System.out.println(cat1 + " выиграл у " + cat2);
+		        else 
+		        System.out.println(cat2 + " выиграл у " + cat1);
+		        i2 = cat1.fight(cat3);
+		        if (i2)
+		        System.out.println(cat1 + " выиграл у " + cat3);
+		        else
+		        System.out.println(cat3 + " выиграл у " + cat1);
+		        i3 = cat2.fight(cat3);
+		        if(i3)
+                System.out.println(cat2 + " выиграл у " + cat3);
+		        else
+		        System.out.println(cat3 + " выиграл у " + cat2);
+		    }
+
+		    public static class Cat {
+
+		        public static int count = 0;
+		        public static int fightCount = 0;
+
+		        protected String name;
+		        protected int age;
+		        protected int weight;
+		        protected int strength;
+
+		        public Cat(String name, int age, int weight, int strength) {
+		            count++;
+
+		            this.name = name;
+		            this.age = age;
+		            this.weight = weight;
+		            this.strength = strength;
+		        }
+
+		        public boolean fight(Cat anotherCat) {
+		            fightCount++;
+		            	boolean fight (FightCats anotherCat1)
+		    {
+
+
+
+		            int agePlus = this.age > anotherCat1.age ? 1 : 0;
+		            int weightPlus = this.weight > anotherCat1.weight ? 1 : 0;
+		            int strengthPlus = this.strength > anotherCat1.strength ? 1 : 0;
+
+		            int score = agePlus + weightPlus + strengthPlus;
+		            return score > 2; // return score > 2 ? true : false;
+		        }
+		    }
+		
+
+
+	}
+
+}
