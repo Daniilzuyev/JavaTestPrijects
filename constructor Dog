@@ -1,0 +1,14 @@
+public class Dog
+{
+    private String DogID = null;
+    public Dog (String name){
+        this.DogID = name;
+    }
+    public Dog (String name, int height){
+    this.DogID = name + height;
+    }
+    public Dog (String name, int height, String colour){
+        this.DogID = name + height + colour;
+    }
+
+}
