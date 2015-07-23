@@ -1,0 +1,12 @@
+
+/* Метод finalize класса Cat
+В классе Cat создать метод protected void finalize() throws Throwable
+*/
+
+public class Cat
+{
+protected void finalize() throws Throwable {
+        super.finalize();
+        System.out.println(this + "Destroyed");
+    }
+}
