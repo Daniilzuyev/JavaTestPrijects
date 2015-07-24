@@ -1,0 +1,15 @@
+public class Cat
+{
+    protected void finalize() throws Throwable{
+        System.out.println ("destroyed");
+    }
+
+}
+
+class Dog
+{
+    protected void finalize() throws Throwable{
+        System.out.println ("destroyed");
+    }
+
+}
