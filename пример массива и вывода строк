@@ -1,0 +1,21 @@
+
+import java.util.ArrayList;
+
+public class arrListStrings {
+    public static void main(String[] args) throws Exception
+    {
+    	ArrayList<String> list = new ArrayList<String>();
+    	
+        list.add("London");
+        list.add(" is");
+        list.add(" the capital");
+        list.add(" of");
+        list.add("Great Britain");
+        
+        System.out.println(list.size());
+for (int i = 0; i < 5; i++)
+{
+  System.out.println(list.get(i));     
+    }
+}
+}
