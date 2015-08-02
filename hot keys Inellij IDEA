@@ -1,0 +1,73 @@
+import sun.java2d.cmm.kcms.ICC_Transform;
+
+import java.util.concurrent.Callable;
+
+
+/**
+ * Created by Даниил on 02.08.2015.
+ */
+public class FirstTestClass {
+
+    // alt + insert  вызов конструкторов, геттеров сеттеров, тустрингов и т.д.
+    private String s;
+    private String f;
+
+    public String getS() {
+
+
+
+        return s;
+    }
+
+    public void setS(String s) {
+        this.s = s;
+}
+    public static void main(String[] args) {   // psvm +Tab
+        System.out.println();  // sout + Tab
+        for (Object o :) {   // I + Tab
+            // удалить целое слово ctrl + Backspace или ctrl + del
+            // ctrl + Tab - перехо между вкладками, классами
+//            ctrl + N - выбор класса
+//            ctrl + F4 - закрывает класс
+
+        }
+
+        for (int i = 0; i < ; i++) {   // fori + Tab
+
+        }
+        Callable<Object> callable = new Callable<Object>() {
+            public Object call() throws Exception {
+
+                // ztrl + Back Quote выбор режима просмотра кода
+                // alt + 1 открывает, переходит и скрывает дерево проектов
+            }
+            // ctrl + j - выводит разные сокращения
+        };
+        // shift + end - выделяет строку
+/*        ctrl + d // копирует строку или выделенный блок
+        ctrl + d // копирует строку или выделенный блок
+        ctrl + y // удалить строку
+        ctrl + x // вырезает строку
+        ctrl + } // отправляет в конец метода, после повторного нажатия класса, далее пекеджа
+    ctrl + g // вывод консоли для выбора курсора на строку
+    ctrl + g // вывод консоли для выбора курсора строку
+    alt + 6 // показывает окно месторасположения*/
+
+
+   // tab - отступ из 4-х пробелов
+    // shift + tab - отступ из
+    // ctrl + alt + i форматирует код в корректный вид ("красиво")
+
+//    @Override
+//    ctrl + / - коиит строку и перемещает вниз, повторное нажатие убирает коментарий
+//    ctrl + shift + / - коиит текст и перемещает вниз, повторное нажатие убирает коментарий
+//    shift + alt + f10 - собирать и запуск проекта или класса
+      shift + f9 - дебажит выбранный код, раздел, строку
+
+    public String toString() {
+        return "FirstTestClass{}";
+    }
+
+    System.out.println(); // при выделении строки и нажатии ctrl + alt + t можем выбрать куда именно перемещать данную строку
+
+}
