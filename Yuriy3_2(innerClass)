@@ -1,0 +1,9 @@
+
+public class Yuriy3_2 {
+  private class Inner{}  // используется для большего закрытия кода
+                         //от внешних сторонних лиц
+  public void test(){
+	  Inner b = new Inner();
+  }
+  
+}
