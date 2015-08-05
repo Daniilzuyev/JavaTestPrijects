@@ -1,0 +1,9 @@
+
+public class Yuriy2 {
+ private int num;
+ public int getNum(){
+	 return num;
+ }
+public Yuriy2( int n){
+	num = n;}
+}
