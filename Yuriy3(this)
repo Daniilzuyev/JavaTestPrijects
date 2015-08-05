@@ -1,0 +1,7 @@
+public class Yuriy3 {
+private int num;
+public void setNum(int num){
+	this.num = num;      //this.num  обращается к num с этого метода (втуренним полям класса)
+                         // через this обращаются к параметрам, это удобно
+}
+}
