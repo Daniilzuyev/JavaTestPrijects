@@ -1,0 +1,25 @@
+
+public class ActionsContinue implements Actions1{
+	public static void main(String[] args){
+
+	   ActionsContinue a = new ActionsContinue();
+	   Actions1 b = a;
+	   Actions1 c = (Actions1) new Yuriy4();
+	   c.doSmth();
+	    // обьект класса ActionsContinue, 
+	                                       //присваивается в интерфейсе
+
+}
+
+	@Override
+	public void doSmth() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int getNum() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+}
