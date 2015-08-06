@@ -1,0 +1,18 @@
+
+public interface Actions1 {  // содержат в себе только определения методов
+	                         //  тел нет, определяет только методы, которые классы бдут реализовывать
+	                        //  описывает то какое поведение может быть у этого обьекта
+	                        //  
+public void doSmth();
+public int getNum();
+
+}
+
+
+
+
+/*Object   implement ->    interface
+getNum                   getNum   */  
+
+
+
