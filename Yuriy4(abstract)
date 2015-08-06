@@ -1,0 +1,10 @@
+
+public abstract class Absract1 {   // создан для уменьшения кода
+private int id;
+public int getId(){
+return id;
+}
+
+public abstract void test();
+
+}
