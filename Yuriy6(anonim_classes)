@@ -1,0 +1,13 @@
+public interface Action{
+public boolean doAction();
+}
+public class A{
+public void doSmth(Action a){
+a.doAction();}
+}
+    A a = new B();
+    a.doSmth(new Action(){
+        public boolean doAction(){
+            return true;
+        }
+    }
