@@ -1,0 +1,9 @@
+public class A {
+    public static int getId(){
+        return 1;
+    }
+    public boolean isGood(){
+        return true;
+    }
+    A a = new B();
+}
