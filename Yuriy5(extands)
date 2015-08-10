@@ -1,0 +1,12 @@
+public class B extends A {
+    public static int getId() {
+        return 2;
+    }
+
+    public boolean isGood() {
+        return false;
+    }
+
+    B b = new B();
+
+}
