@@ -1,0 +1,10 @@
+public class Verification{
+int id;
+private Verification(){   // если приватный то никогда нельзя создать обьекты
+id = 5;
+}
+public static Verification   // метод создан для обьекта класса
+getInstance(){
+return New Verification();
+}
+}
