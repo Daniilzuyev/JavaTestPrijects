@@ -1,0 +1,16 @@
+public class ArrayParrameter {
+	public int sum(int...num){
+	int[] num2 = num;
+	return 0;
+	}
+	int summa = 0;
+	for(int i : num){
+		summa += i;
+	}
+	return summa;
+    public void do(int a, String b, double...num){  // нельзя написать public void do (double...num, int a)
+    	do(1," ")
+    }
+
+}
+}
