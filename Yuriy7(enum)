@@ -1,0 +1,18 @@
+public enum UserType {       
+	// enum - это список именованных констант, каждая из которых имеет список этого же enum
+	// при использовании Enum появляется type safting
+	// обьекты не создаются
+     ADMIN, BUYER, SELEER
+}
+
+
+
+_____________________________________________________
+public class User {
+public UserType t;
+
+if(UserType.ADMIN.equals(User.getType())){
+	
+}
+
+}
