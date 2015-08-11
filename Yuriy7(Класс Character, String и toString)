@@ -1,0 +1,21 @@
+Character isLetter()
+isLetter() — проверяет, является ли символ буквой Java;
+IsLetterOrDigit() — Проверяет, является ли символ буквой или цифрой Unicode;
+isLowerCase() — определяет, записан ли символ в нижнем регистре; 
+isUpperCase() — проверяет, записан ли символ в верхнем регистре; 
+isWhitespace() — выясняет, является ли символ пробельным.
+
+String a = "abcd";
+b = a.substring(1, 2);  // выводит bc
+a.indexOf("a");   // возвращает 1й индекс вхождения в эту строку
+a.startswitch("ab")
+landswitch("zz")
+a.comparTo();    // сравнивает. Вернёт либо 0, если строки одинаковые, меньше 0 одно число, больше 0 другое
+a.compareToIgnoreCase();  // Abcd и abcd - вернёт 0
+s.append(5), s.append(SS), s.append(10.2)
+toString()  // выведет 5SS10.2
+
+privat String name;
+public String toString(){
+return name;
+}
