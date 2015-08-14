@@ -1,0 +1,19 @@
+                                  Collections 
+1 Interface,                                                        2 Implenetations
+Collections       Map, Sorted Map                             - ArrayList       -  Linkedlist
+- List(список, могут   - Set(все уникальные)                  
+быть одинаковые обьекты)   
+-  Sortedlist
+
+
+
+
+ - ArrayList достучатся до 100-го элемента можно быстро, вставка/удаление длительно занимает   
+ -  Linkedlist достучатся до 100-го элемента после реализации 99-ти, вставка/удаление мгновенно!
+
+HashSet = HashMap;
+TreeSet = TreeMap; 
+*/
+List<Integer> a = new Arraylist <Integer>; 
+Map<Integer, String> m;
+m.put(5, "sdf");
