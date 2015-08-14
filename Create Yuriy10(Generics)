@@ -1,0 +1,16 @@
+class Box <T extends Number>{
+	private T item;
+	public T getItem(){
+		return item;
+	}
+	public void setItem(){
+		item = 0;
+	}
+
+Box<Integer> b = new Box<Integer>();
+Box<String> c = new Box<String>(); // error из-за extends Number
+b.setItem(5);
+c.getItem(spr);
+Box<Number> b1;
+Box<Integer> b2;
+}
