@@ -1,0 +1,10 @@
+   key = value;
+   
+   login = aa;
+   Password = bb;
+   ID = 2s;
+   
+   Properties p = new Properties.....
+   p.load(InputStream)
+   p.get(key);
+}
