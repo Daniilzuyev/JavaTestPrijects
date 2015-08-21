@@ -1,0 +1,10 @@
+public void run(){
+// actions
+}
+try{
+Thread.sleep(1000);// sleep on 1000 sec
+catch(InterraptedException){
+
+}
+//actions2 после того как проснулись
+}
