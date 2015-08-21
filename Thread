@@ -1,0 +1,10 @@
+Class Thread         interface Runnable
+
+Class MyThread implenets Runnable{
+public void run(){
+//some actions
+}
+} 
+new Thread (new MyThread){
+t.Start();
+}
