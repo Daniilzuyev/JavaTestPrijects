@@ -1,0 +1,14 @@
+t1 = new Thread();
+t2 = new Thread();
+t1.start();
+t2.start();
+t1.join();
+t2.join();
+exit
+
+
+1) main
+2) main.join
+3) t1/t2
+4) main.join
+5) exit
