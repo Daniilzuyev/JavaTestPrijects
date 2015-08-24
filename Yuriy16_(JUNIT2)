@@ -1,0 +1,4 @@
+@Test (expected Exception.class)
+public void TestDivException(){
+new Calc().div(2,0);
+}
