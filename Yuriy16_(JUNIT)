@@ -1,0 +1,31 @@
+import static org.junit.Assert*;
+
+public class Calc{
+public int add(int a, int b){
+return a+b;
+}
+public double div(int a, int b){
+return a/b;
+}
+}
+
+
+public class TestCalc{
+public void testAdd(){
+Calc c = new Calc();
+int rez = c.add(2, 5);
+if (7:=rez){
+fail("ha-ha");
+}
+}
+}
+
+
+AssertTrue(rez==7);
+assertTrue("error", rez==7);
+assertEquals(7, rez);
+assertNull(new (Object));
+assertNotNull...
+assertTrue...
+assertFalse...
+assertEquals...
