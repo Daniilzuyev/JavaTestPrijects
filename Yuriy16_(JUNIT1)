@@ -1,0 +1,10 @@
+public void TestDiv(){
+Calc c = new Calc();
+assertEquals(2, c.div(10,5));
+try{                             // использовался в третем JUnit
+c.div(2,0);
+} catch (Exception p){
+// do nothing
+}
+
+}
