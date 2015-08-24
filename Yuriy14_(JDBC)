@@ -1,0 +1,39 @@
+
+Driver Manager - Driver - 
+getConnection - Connection - Statemant - ResultSet
+
+getConnection(
+url, user, password);
+jdbc:mysql:locdhost:3306/mydb?
+                      гыук="165"
+jdbc:<имя драйвера>:[//хост[:порт/]]
+
+
+public void main(...){
+String user = "aa";
+String pass = "tt";
+String url = "jdbc:mysql..."
+String driver = "org.mysql...."
+}
+
+try ClassForName(driver){  // загрузка дравера
+catch.(Exception)   // загрузка дравера
+Fail;}   // загрузка дравера
+Connection с = DriverManager
+getConnection(url, user, password){
+catch (Exception c){
+Fail c.print
+}
+
+Statement st = c.createStatement{
+Sselect * from user};
+
+ReshSet rs = Statemente();
+while(rs.next()){
+sysout.(rs.getString("name"));
+}Finally{
+;F (c:=null){
+c.close()}
+}
+
+}
