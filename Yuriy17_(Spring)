@@ -1,0 +1,19 @@
+Sping.jar - 2.8Mb
+1) Lightweight
+2) Container
+3) Framework
+4) IoC(Inversion fo control)  DI - dependency injection
+5) AOP (aspect oriented programming)
+
+
+public interfsce Hello{
+public void satHi();
+}
+
+public class Impl inplements Hello{
+public void satHi();
+system.out.printl(s);
+private String(s);
+public Iml (String s) this.s = -5;
+// getter and setter
+}
