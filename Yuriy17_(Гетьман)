@@ -1,0 +1,52 @@
+interface Гетьман{
+public void пойти();
+}
+
+public class Sagaydachniy implements{
+public void пойти(){
+посовещаться();
+Багатство b = new КрымПоход().пойти();
+потратить();
+}
+
+
+public class ТурцияПоход(){ implements Поход
+public Богатство пойти(){
+подготовка();
+поход();
+побить всех():
+b = багатство();
+return b;
+}
+}
+
+
+@Test
+public void test Поход(){
+Sagaydachniy s = new Sagaydachniy();
+S.пойти();
+AssertNotNull(s.get.Багатство());
+AssertTrue(s.getБагатство())
+
+}
+config.xml
+<bean>
+   <bean id = "sagaydachniy"
+   class = "Sagayndachniy">
+   <property.name "п" ref = "ТурцияПоход"
+   
+<bean id = "крым.поход"
+   class = "ТурцияПоход"/
+   
+   
+public class Sagaydachniy{
+private Поход a;
+// getter //setter
+
+public void пойти(){
+совещание();
+Б = n.пойти();
+поделить();
+
+}
+}
