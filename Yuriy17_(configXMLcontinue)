@@ -1,0 +1,2 @@
+Hello h = (Hello)ctx.getBean("hello")
+h.sayHi();
