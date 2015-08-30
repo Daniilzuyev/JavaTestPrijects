@@ -1,0 +1,19 @@
+AbstractApplicationContext ctx = 
+     ClassPathApplicationContext
+     FileSystem
+     
+.create("conFig.xml");   статический метод одного из классов вышеуказанных
+
+
+
+Config.xml
+
+
+
+<beans>
+<bean id = "hello"
+    class = "Impl">
+    <construction-arg value = "id"/>
+    <property name="s" value = "aaa/">
+    </bean>
+<beans/>
