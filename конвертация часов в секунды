@@ -1,0 +1,18 @@
+public class Solution
+{
+
+    public static int convertToSeconds(int hour){
+
+        int sec = hour * 3600;
+        return sec;
+    }
+
+    public static void main(String[] args) {
+        int g = 7;
+        int j = 4;
+        int i = convertToSeconds(g);
+        int k = convertToSeconds(j);
+        System.out.println(g);
+        System.out.println(j);
+    }
+}
