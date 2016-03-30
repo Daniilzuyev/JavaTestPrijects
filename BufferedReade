@@ -1,0 +1,14 @@
+public class InputOutput
+{
+    public static void main(String[] args) throws Exception
+    {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
+        String age = reader.readLine();
+        int nAge = Integer.parseInt(age);
+        String name = reader.readLine();
+        System.out.println(name + " захватит мир через " + nAge + " лет. Му-ха-ха!");
+        
+
+    }
+}
