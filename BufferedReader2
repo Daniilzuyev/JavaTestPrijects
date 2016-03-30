@@ -1,0 +1,17 @@
+import java.io.*;
+
+public class Solution
+{
+    public static void main(String[] args) throws Exception
+    {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String name = reader.readLine();
+        String num11 = reader.readLine();
+        int num1 = Integer.parseInt(num11);
+        String num12 = reader.readLine();
+        int num2 = Integer.parseInt(num12);
+        System.out.println(name + " получает " + num1 + " через " + num2 + " лет.");
+        
+
+    }
+}
